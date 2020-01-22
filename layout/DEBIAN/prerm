@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "installd 데몬 프로세스를 종료시키는 중... "
+killall -9 installd
+echo "installd OTA Patch 제거 완료!"
